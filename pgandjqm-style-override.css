@@ -5,29 +5,55 @@
  */
 
 .ui-header .ui-title {
-	margin-right:20px;
-	margin-left:20px;
+	margin-right: 20px;
+	margin-left: 20px;
 }
 /* JQM: margin-left, margin-right: 90px
- *      
+ *
  */
 
- .ui-footer .ui-title {
-	margin-right:20px;
-	margin-left:20px;
-	white-space:normal; 
- }
+.ui-footer .ui-title {
+	margin-right: 20px;
+	margin-left: 20px;
+	white-space: normal;
+}
 /* JQM: margin-left, margin-right: 90px
  *       white-space:nowrap
  */
- 
- .ui-content { padding: 5px; }
+
+.ui-content {
+	padding: 5px;
+}
 /* JQM: .ui-content { padding: 15px; }
  *  Leave more space vertically for buttons etc
- */ 
- 
- .ui-collapsible-contain { margin: .5em 7px; }
- /* Collapsible bars touch sides w/out this.
-  */
+ */
 
- 
+.ui-collapsible-contain {
+	margin: .5em 7px;
+}
+/* Collapsible bars touch sides w/out this.
+ */
+
+#pulse-logo-div {
+	text-align: center;
+	position: absolute;
+	top: 20%;
+	height: 10em;
+	margin-top: -5em;
+	width: 100%;
+}
+#pulse-logo {
+	width: 80%;
+}
+
+.ui-loading {
+	
+}
+
+.ui-page {
+	background: #38525F;
+/*	filter: progid
+	: DXImageTransform.Microsoft.gradient(startColorstr='#38525F', endColorstr='#242B31'); /* for IE */*
+	background: -webkit-gradient(linear, left top, left bottom, from(#38525F), to(#242B31)); /* for webkit browsers */
+
+}
